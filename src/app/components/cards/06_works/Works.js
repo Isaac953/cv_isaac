@@ -7,6 +7,30 @@ export const Works = () => {
   let expecienceData = [
     {
       id: 1,
+      position: "Desarrollador de Sistemas de Información | Consultor Informático",
+      company: "Banco Central de Reserva de El Salvador",
+      date: "Abril 2024 - Presente",
+      project: "Programa de Modernización del Sistema Estadístico de El Salvador",
+      responsibilities: "Actividades: (En construcción)",
+      activities: [
+        {
+          idt: 1,
+          tasks: "-",
+          styleList: "item-bottom",
+        },
+        
+      ],
+      // achievement: "Logro:",
+      // description: [
+      //   {
+      //     idc: 1,
+      //     tasks: "Entrega de un nuevo sistema para la mejora en los procesos de facturar, cotizar y movimientos de inventario.",
+      //     styleList: "item-bottom",
+      //   },
+      // ],
+    },
+    {
+      id: 2,
       position: "Programador .NET C# | Consultor Informático",
       company: "Elementos Industriales S.A de C.V",
       date: "Febrero 2017 - Abril 2019",
@@ -47,8 +71,8 @@ export const Works = () => {
       // ],
     },
     {
-      id: 2,
-      position: "Programador PHP / Consultor Informático",
+      id: 3,
+      position: "Programador PHP | Consultor Informático",
       company: "Plan Internacional El Salvador",
       date: "Mayo 2018 - Octubre 2018",
       project: "Aplicación Web SIPAB 2.0 Actualizaciones.",
@@ -88,7 +112,7 @@ export const Works = () => {
       // ],
     },
     {
-      id: 3,
+      id: 4,
       position: "Programador Frontend",
       company: "IMOVES S.A. de C.V.",
       date: "Febrero 2018 - Abril 2018",
@@ -120,7 +144,7 @@ export const Works = () => {
       ],
     },
     {
-      id: 4,
+      id: 5,
       position: "Pasante del Área de Innovación y Gestión del conocimiento",
       company: "Plan Internacional El Salvador",
       date: "Julio 2016 - Febrero 2017",

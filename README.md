@@ -83,3 +83,7 @@ Proyecto creado en React.
 
 - UP_01: **Agregando función y boton para imprimir PDF**.
 - UP_02: **Mejora de redacción de experiencias laborales**.
+
+## 16 Update Sep 2025
+
+- UP_SEPT_01: **Actualización de footer y agregar nueva experiencia laboral**.
