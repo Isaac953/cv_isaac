@@ -88,3 +88,4 @@ Proyecto creado en React.
 
 - UP_2025_01: **Actualización de footer y agregar nueva experiencia laboral**.
 - UP_2025_02: **Actualización de actividades de esperiencia laboral**.
+- UP_2025_03: **Actualizar redacción y experiencias visibles**.

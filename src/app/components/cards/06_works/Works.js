@@ -134,7 +134,7 @@ export const Works = () => {
       //   },
       // ],
     },
-    {
+   /*{
       id: 4,
       position: "Programador Frontend",
       company: "IMOVES S.A. de C.V.",
@@ -166,7 +166,8 @@ export const Works = () => {
         },
       ],
     },
-    {
+    */
+    /*{
       id: 5,
       position: "Pasante del Área de Innovación y Gestión del conocimiento",
       company: "Plan Internacional El Salvador",
@@ -199,6 +200,7 @@ export const Works = () => {
         },
       ],
     },
+    */
   ];
   return (
     <section className="workscard">
