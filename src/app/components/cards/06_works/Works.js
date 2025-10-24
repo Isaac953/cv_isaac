@@ -11,14 +11,37 @@ export const Works = () => {
       company: "Banco Central de Reserva de El Salvador",
       date: "Abril 2024 - Presente",
       project: "Programa de Modernización del Sistema Estadístico de El Salvador",
-      responsibilities: "Actividades: (En construcción)",
+      responsibilities: "Actividades:",
       activities: [
         {
           idt: 1,
-          tasks: "-",
-          styleList: "item-bottom",
+          tasks: "Desarrollo de módulos para el registro de datos utilizando Angular.",
         },
-        
+        {
+          idt: 2,
+          tasks: "Ejecución de pruebas de aseguramiento de calidad (QA).",
+        },
+        {
+          idt: 3,
+          tasks: "Diseño y elaboración de formularios mediante ODK.",
+        }, 
+        {
+          idt: 4,
+          tasks: "Realización de procesos de control de calidad.",
+        }, 
+        {
+          idt: 5,
+          tasks: "Desarrollo y optimización de consultas SQL.",
+        }, 
+        {
+          idt: 6,
+          tasks: "Soporte técnico en chat para formularios ODK.",
+        }, 
+        {
+          idt: 7,
+          tasks: "Documentar actualizaciones y cambios en formularios ODK.",
+          styleList: "item-bottom",
+        }, 
       ],
       // achievement: "Logro:",
       // description: [
