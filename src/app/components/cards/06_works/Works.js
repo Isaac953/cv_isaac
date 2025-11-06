@@ -19,26 +19,30 @@ export const Works = () => {
         },
         {
           idt: 2,
-          tasks: "Ejecución de pruebas de aseguramiento de calidad (QA).",
+          tasks: "Desarrollo de componentes utilizando Flutter.",
         },
         {
           idt: 3,
+          tasks: "Ejecución de pruebas de aseguramiento de calidad (QA).",
+        },
+        {
+          idt: 4,
           tasks: "Diseño y elaboración de formularios mediante ODK.",
         }, 
         {
-          idt: 4,
+          idt: 5,
           tasks: "Realización de procesos de control de calidad.",
         }, 
         {
-          idt: 5,
+          idt: 6,
           tasks: "Desarrollo y optimización de consultas SQL.",
         }, 
         {
-          idt: 6,
+          idt: 7,
           tasks: "Soporte técnico en chat para formularios ODK.",
         }, 
         {
-          idt: 7,
+          idt: 8,
           tasks: "Documentar actualizaciones y cambios en formularios ODK.",
           styleList: "item-bottom",
         }, 

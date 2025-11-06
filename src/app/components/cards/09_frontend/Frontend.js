@@ -48,6 +48,14 @@ export const Frontend = () => {
       id: 11,
       description: "Jinja2",
     },
+    {
+      id: 12,
+      description: "Flutter",
+    },
+    {
+      id: 13,
+      description: "ODK",
+    },
   ];
   return (
     <section className="frontendcard">

@@ -48,6 +48,14 @@ export const Programs = () => {
       id: 11,
       description: "Docker.",
     },
+    {
+      id: 12,
+      description: "DBeaver.",
+    },
+    {
+      id: 13,
+      description: "Git Desktop.",
+    },
   ];
 
   let programsData2 = [
@@ -90,6 +98,22 @@ export const Programs = () => {
     {
       id: 10,
       description: "Microsoft Office.",
+    },
+    {
+      id: 11,
+      description: "IntelliJ IDEA.",
+    },
+    {
+      id: 12,
+      description: "Clockify.",
+    },
+    {
+      id: 13,
+      description: "ODK Build.",
+    },
+    {
+      id: 14,
+      description: "Postman.",
     },
   ];
   return (
