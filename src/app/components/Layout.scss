@@ -47,16 +47,20 @@
   color: $textColor;
   @include flex-column;
   .marginb {
+    width: 65%;
     margin-bottom: 9px;
+  }
+  .marginb2 {
+    width: 65%;
   }
   &__page {
     width: 70%;
-    height: 1215px;
+    height: 1300px;
     background-color: $textColor;
     @include flex-row;
     &--contact {
       height: inherit;
-      width: 28%;
+      width: 25%;
       background-color: $contactColor;
       justify-content: flex-start;
       @include flex-column;
@@ -65,7 +69,7 @@
     }
     &--experience {
       height: inherit;
-      width: 72%;
+      width: 75%;
       color: $textColor2;
       justify-content: flex-start;
       @include flex-column;

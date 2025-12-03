@@ -8,6 +8,7 @@ import { Profile } from "./cards/03_profile/Profile";
 import { About } from "./cards/04_about/About";
 import { SoftSkills } from "./cards/05_softskils/SoftSkills";
 import { Works } from "./cards/06_works/Works";
+import { Works2 } from "./cards/06_works/Works2";
 import { Languages } from "./cards/07_languages/Languages";
 import { Education } from "./cards/08_education/Education";
 import { Frontend } from "./cards/09_frontend/Frontend";
@@ -78,13 +79,18 @@ export const Main = () => {
           <Works />
         </section>
       </section>
-{/*       <section className="main__page marginb">
+
+      <section className="main__page marginb">
         <section className="main__page--contact">
+          <hr className="hr-wh margint"></hr>
         </section>
         <section className="main__page--experience" ref={container}>
+          <hr className="hr-bg margint"></hr>
+          <Works2 />
         </section>
-      </section> */}
-      <section className="main__page">
+      </section>
+
+      <section className="main__page marginb2">
         <section className="main__page--contact">
           <hr className="hr-wh margint"></hr>
           <Frontend />
