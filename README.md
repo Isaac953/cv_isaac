@@ -92,3 +92,7 @@ Proyecto creado en React.
 - UP_2025_04: **Actualizar componentes de Works, Frontend y Programs**.
 - UP_2025_05: **Ajuste de segunda página para experiencia laboral**.
 - UP_2025_06: **Fix margin para impresión PDF**.
+
+## 17 Upgrades Feb 2026
+
+- UP_2026_02_08: **Actualización de experiencias laborales, sobre mi, aptitudes, backend y programas**.

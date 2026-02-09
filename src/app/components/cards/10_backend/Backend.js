@@ -18,26 +18,30 @@ export const Backend = () => {
       },
       {
         id: 4,
-        description: "C#",
+        description: "Java",
       },
       {
         id: 5,
-        description: "DJango",
+        description: "C#",
       },
       {
         id: 6,
-        description: "FastAPI",
+        description: "DJango",
       },
       {
         id: 7,
-        description: "Laravel",
+        description: "FastAPI",
       },
       {
         id: 8,
-        description: "Express JS",
+        description: "Laravel",
       },
       {
         id: 9,
+        description: "Express JS",
+      },
+      {
+        id: 10,
         description: ".NET Core",
       },
     ];

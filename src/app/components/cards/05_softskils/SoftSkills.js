@@ -29,6 +29,18 @@ export const SoftSkills = () => {
       id: 6,
       description: "Responsable",
     },
+    {
+      id: 7,
+      description: "Resolución de problemas",
+    },
+    {
+      id: 8,
+      description: "Comunicación efectiva",
+    },
+    {
+      id: 9,
+      description: "Gestión del tiempo",
+    },
   ];
   return (
     <section className="softskillscard">

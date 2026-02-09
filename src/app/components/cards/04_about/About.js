@@ -6,8 +6,9 @@ export const About = () => {
   /* const description ="Soy Ingeniero en Sistemas y Computación, con experiencia en el desarrollo de aplicaciones web y escritorio,\
   enfocado con la entrega de soluciones creativas y eficientes, comprometido con asegurar resultados \
   sobresalientes mediante un trabajo orientado a objetivos." */
-  const description = "Soy Ingeniero en Sistemas y Computación, orientado a brindar soluciones creativas y eficientes mediante el desarrollo de aplicaciones web y móviles,\
-  asegurando procesos de control de calidad óptimos y resultados alineados con objetivos establecidos."
+  const description = "Soy Ingeniero en Sistemas y Computación, orientado al desarrollo de soluciones tecnológicas creativas y eficientes mediante aplicaciones web y móviles,\
+  con experiencia en análisis de requerimientos, implementación de buenas prácticas de desarrollo y aseguramiento de la calidad,\
+  garantizando resultados alineados con los objetivos establecidos." 
   return (
     <section className="aboutcard">
       <h2 className="aboutcard__title">{title}</h2>

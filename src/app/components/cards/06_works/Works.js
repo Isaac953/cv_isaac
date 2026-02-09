@@ -15,7 +15,7 @@ export const Works = () => {
       activities: [
         {
           idt: 1,
-          tasks: "Desarrollo de módulos para el registro de datos utilizando Angular.",
+          tasks: "Desarrollo de módulos web en Angular, integrando formularios y consumo de APIs REST.",
         },
         {
           idt: 2,
@@ -23,27 +23,27 @@ export const Works = () => {
         },
         {
           idt: 3,
-          tasks: "Ejecución de pruebas de aseguramiento de calidad (QA).",
+          tasks: "Ejecución de pruebas de aseguramiento de calidad (QA) y aplicación de procesos de control de calidad.",
         },
         {
           idt: 4,
-          tasks: "Diseño y elaboración de formularios mediante ODK.",
+          tasks: "Diseño de formularios ODK XLSForm con validaciones, lógica condicional y pruebas funcionales en ODK Collect.",
         }, 
         {
           idt: 5,
-          tasks: "Realización de procesos de control de calidad.",
+          tasks: "Control de versiones y gestión de cambios de código y scripts de bases de datos usando GIT.",
         }, 
         {
           idt: 6,
-          tasks: "Desarrollo y optimización de consultas SQL.",
+          tasks: "Preparación y configuración de DMC para la ejecución de operativos en campo.",
         }, 
         {
           idt: 7,
-          tasks: "Soporte técnico en chat para formularios ODK.",
+          tasks: "Atención y soporte técnico en chat para incidencias en formularios ODK.",
         }, 
         {
           idt: 8,
-          tasks: "Documentar actualizaciones y cambios en formularios ODK.",
+          tasks: "Documentación de mejoras, cambios y actualizaciones en formularios ODK.",
           styleList: "item-bottom",
         }, 
       ],
