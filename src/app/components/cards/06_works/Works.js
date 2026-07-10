@@ -12,7 +12,7 @@ export const Works = () => {
       company: "Banco Central de Reserva de El Salvador",
       date: "Abril 2024 - Presente",
       project:
-        "Programa de Modernización del Sistema Estadístico de El Salvador (Censos y Encuestas especiales)",
+        "Programa de Modernización del Sistema Estadístico de El Salvador",
       technologies: "Angular, PostgreSQL, Git, Postman, ODK Collect, ODK/XLSForm, Jira, Android Studio",
       responsibilities: "Actividades:",
       activities: [
