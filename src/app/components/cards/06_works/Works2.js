@@ -5,35 +5,39 @@ export const Works2 = () => {
   const title = "EXPERIENCIA LABORAL";
 
   let expecienceData = [
-   {
+    {
       id: 4,
       styleList: "item-top",
       position: "Programador Frontend",
       company: "IMOVES S.A. de C.V.",
       date: "Febrero 2018 - Abril 2018",
       project: "Revisión de aplicaciones existentes.",
-      responsibilities: "Actividades:",
+      technologies: "JavaScript, HTML5, CSS3, Highcharts, Git",
+      responsibilities: "Responsabilidades:",
       activities: [
         {
           idt: 1,
-          tasks: "Ejecutar tareas específicas basadas en la metodología Scrum.",
+          tasks:
+            "Ejecuté actividades de desarrollo bajo la metodología ágil Scrum.",
         },
         {
           idt: 2,
-          tasks: "Colaborar en equipo utilizando control de versiones GIT.",
+          tasks:
+            "Colaboré con el equipo utilizando Git para el control de versiones.",
         },
         {
           idt: 3,
-          tasks: "Desarrollar un Dashboard con filtro de fechas.",
+          tasks: "Desarrollé un dashboard con filtros por rango de fechas.",
         },
         {
           idt: 4,
           tasks:
-            "Programar gráficos lineales y de dona en JavaScript con Highcharts.",
+            "Implementé gráficos lineales y de dona utilizando JavaScript y Highcharts.",
         },
         {
           idt: 5,
-          tasks: "Diseñar una barra de navegación con HTML, CSS y JavaScript.",
+          tasks:
+            "Diseñé una barra de navegación utilizando HTML, CSS y JavaScript.",
           styleList: "item-bottom",
         },
       ],
@@ -44,30 +48,34 @@ export const Works2 = () => {
       company: "Plan Internacional El Salvador",
       date: "Julio 2016 - Febrero 2017",
       project: "Aplicación Web para gestión de Consultorias.",
+      technologies: "PHP, HTML5, CSS3, SQL Server",
       // styleClass: "margin-botton",
-      responsibilities: "Actividades:",
+      responsibilities: "Responsabilidades:",
       activities: [
         {
           idt: 1,
-          tasks: "Diseñar diagramas de caso de uso para especificar procesos.",
+          tasks:
+            "Diseñé diagramas de casos de uso para definir los procesos del sistema.",
         },
         {
           idt: 2,
-          tasks: "Crear diagramas de entidad-relación (ER) de la base de datos SQL Server.",
+          tasks:
+            "Diseñé diagramas entidad-relación (ER) para la base de datos SQL Server.",
         },
         {
           idt: 3,
           tasks:
-            "Diseñar vistas y formularios de la aplicación web con HTML y CSS.",
+            "Desarrollé vistas y formularios de la aplicación web utilizando HTML y CSS.",
         },
         {
           idt: 4,
           tasks:
-            "Programar funciones especificas con PHP según roles de usuario.",
+            "Implementé funcionalidades en PHP según los roles de usuario.",
         },
         {
           idt: 5,
-          tasks: "Migrar datos desde archivos CSV a base de datos SQL Server utilizando PHP.",
+          tasks:
+            "Migré datos desde archivos CSV hacia SQL Server utilizando PHP.",
         },
       ],
     },
@@ -82,16 +90,26 @@ export const Works2 = () => {
             {item.company} | {item.date}
           </span>
           <span className="workscard__history--project">{item.project}</span>
-          <span className="workscard__history--resp">{item.responsibilities}</span>
+          <span className="workscard__history--technologies">
+            <strong>Tecnologías: </strong>
+            {item.technologies}
+          </span>
+          <span className="workscard__history--resp">
+            {item.responsibilities}
+          </span>
           {item.activities?.map((listI) => (
             <ul key={listI.idt} className="workscard__history--list">
-              <li className={`list__activities ${listI.styleList}`}>{listI.tasks}</li>
+              <li className={`list__activities ${listI.styleList}`}>
+                {listI.tasks}
+              </li>
             </ul>
           ))}
           <span className="workscard__history--resp">{item.achievement}</span>
           {item.description?.map((listI) => (
             <ul key={listI.idc} className="workscard__history--list">
-              <li className={`list__activities ${listI.styleList}`}>{listI.tasks}</li>
+              <li className={`list__activities ${listI.styleList}`}>
+                {listI.tasks}
+              </li>
             </ul>
           ))}
         </div>

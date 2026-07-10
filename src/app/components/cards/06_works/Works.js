@@ -7,45 +7,45 @@ export const Works = () => {
   let expecienceData = [
     {
       id: 1,
-      position: "Desarrollador de Sistemas de Información | Consultor Informático",
+      position:
+        "Desarrollador de Sistemas de Información | Consultor Informático",
       company: "Banco Central de Reserva de El Salvador",
       date: "Abril 2024 - Presente",
-      project: "Programa de Modernización del Sistema Estadístico de El Salvador",
+      project:
+        "Programa de Modernización del Sistema Estadístico de El Salvador (Censos y Encuestas especiales)",
+      technologies: "Angular, PostgreSQL, Git, Postman, ODK Collect, ODK/XLSForm, Jira, Android Studio",
       responsibilities: "Actividades:",
       activities: [
         {
           idt: 1,
-          tasks: "Desarrollo de módulos web en Angular, integrando formularios y consumo de APIs REST.",
+          tasks:
+            "Desarrollo de módulos frontend en Angular, integrando formularios y consumiendo APIs REST.",
         },
         {
           idt: 2,
-          tasks: "Desarrollo de componentes utilizando Flutter.",
+          tasks: "Ejecutar pruebas de aseguramiento de calidad (QA) y aplicar procesos de control de calidad.",
         },
         {
           idt: 3,
-          tasks: "Ejecución de pruebas de aseguramiento de calidad (QA) y aplicación de procesos de control de calidad.",
+          tasks:
+            "Diseño de formularios ODK/XLSForm con validaciones, lógica condicional y pruebas funcionales en ODK Collect.",
         },
         {
           idt: 4,
-          tasks: "Diseño de formularios ODK XLSForm con validaciones, lógica condicional y pruebas funcionales en ODK Collect.",
-        }, 
+          tasks:
+            "Gestionar el control de versiones, los cambios de código y scripts de bases de datos utilizando Git.",
+        },
         {
           idt: 5,
-          tasks: "Control de versiones y gestión de cambios de código y scripts de bases de datos usando GIT.",
-        }, 
+          tasks:
+            "Preparar y configurar DMC para la ejecución de operativos en campo",
+        },
         {
           idt: 6,
-          tasks: "Preparación y configuración de DMC para la ejecución de operativos en campo.",
-        }, 
-        {
-          idt: 7,
-          tasks: "Atención y soporte técnico en chat para incidencias en formularios ODK.",
-        }, 
-        {
-          idt: 8,
-          tasks: "Documentación de mejoras, cambios y actualizaciones en formularios ODK.",
+          tasks:
+            "Brindar soporte técnico a usuarios y mantener actualizada la documentación de mejoras y cambios en formularios ODK.",
           styleList: "item-bottom",
-        }, 
+        },
       ],
       // achievement: "Logro:",
       // description: [
@@ -62,29 +62,33 @@ export const Works = () => {
       company: "Elementos Industriales S.A de C.V",
       date: "Febrero 2017 - Abril 2019",
       project: "Sistema de Inventario y Facturación.",
-      responsibilities: "Actividades:",
+      technologies: "C#, .NET, MySQL, Windows Forms, Visual Studio",
+      responsibilities: "Responsabilidades:",
       activities: [
         {
           idt: 1,
-          tasks: "Elaborar un diagrama entidad-relación (ER) de la base de datos MySQL.",
+          tasks:
+            "Elaboré un diagrama entidad-relación (ER) para la base de datos MySQL.",
         },
         {
           idt: 2,
-          tasks: "Migrar los datos mediante la importación de archivos CSV a MySQL.",
+          tasks:
+            "Migré datos mediante la importación de archivos CSV hacia MySQL.",
         },
         {
           idt: 3,
           tasks:
-            "Diseñar las interfaces de usuario mediante Windows Form en C#.",
+            "Diseñé interfaces de usuario utilizando Windows Forms en C#.",
         },
         {
           idt: 4,
-          tasks: "Desarrollar las funciones del sistema para facturación e inventario.",
+          tasks:
+            "Desarrollé funcionalidades para los módulos de facturación e inventario.",
         },
         {
           idt: 5,
           tasks:
-            "Instalar la aplicación y base de datos en el servidor para la implementación.",
+            "Instalé la aplicación y la base de datos en el servidor para su implementación.",
           styleList: "item-bottom",
         },
       ],
@@ -103,31 +107,33 @@ export const Works = () => {
       company: "Plan Internacional El Salvador",
       date: "Mayo 2018 - Octubre 2018",
       project: "Aplicación Web SIPAB 2.0 Actualizaciones.",
-      responsibilities: "Actividades:",
+      technologies: "PHP, JavaScript, HTML5, CSS3, PostgreSQL, FusionCharts",
+      responsibilities: "Responsabilidades:",
       activities: [
         {
           idt: 1,
-          tasks: "Migrar los datos con PHP de archivos CSV a PostgreSQL.",
+          tasks: "Migré datos desde archivos CSV hacia PostgreSQL utilizando PHP.",
         },
         {
           idt: 2,
-          tasks: "Capacitar al equipo de usuarios para el uso de la aplicación.",
+          tasks:
+            "Capacité al equipo de usuarios en el uso de la aplicación.",
         },
         {
           idt: 3,
-          tasks: "Agregar un módulo de reportes de tipo cuadro y gráficos con FusionCharts.",
+          tasks:
+            "Desarrollé un módulo de reportes con tablas y gráficos utilizando FusionCharts.",
         },
         {
           idt: 4,
           tasks:
-            "Implementar las actualizaciones de la aplicación web desde el servidor.",
+            "Implementé actualizaciones de la aplicación web en el servidor.",
         },
         {
           idt: 5,
-          tasks: "Incluir botones para exportar reportes a PDF y Excel.",
+          tasks: "Incorporé la funcionalidad para exportar reportes en formatos PDF y Excel.",
           styleList: "item-bottom",
         },
-
       ],
       // achievement: "Logro:",
       // description: [
@@ -149,16 +155,26 @@ export const Works = () => {
             {item.company} | {item.date}
           </span>
           <span className="workscard__history--project">{item.project}</span>
-          <span className="workscard__history--resp">{item.responsibilities}</span>
+          <span className="workscard__history--technologies">
+            <strong>Tecnologías: </strong>
+            {item.technologies}
+          </span>
+          <span className="workscard__history--resp">
+            {item.responsibilities}
+          </span>
           {item.activities?.map((listI) => (
             <ul key={listI.idt} className="workscard__history--list">
-              <li className={`list__activities ${listI.styleList}`}>{listI.tasks}</li>
+              <li className={`list__activities ${listI.styleList}`}>
+                {listI.tasks}
+              </li>
             </ul>
           ))}
           <span className="workscard__history--resp">{item.achievement}</span>
           {item.description?.map((listI) => (
             <ul key={listI.idc} className="workscard__history--list">
-              <li className={`list__activities ${listI.styleList}`}>{listI.tasks}</li>
+              <li className={`list__activities ${listI.styleList}`}>
+                {listI.tasks}
+              </li>
             </ul>
           ))}
         </div>

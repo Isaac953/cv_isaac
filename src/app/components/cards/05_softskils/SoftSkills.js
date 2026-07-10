@@ -11,7 +11,7 @@ export const SoftSkills = () => {
     },
     {
       id: 2,
-      description: "Orientado a objetivos",
+      description: "Resolución de problemas",
     },
     {
       id: 3,
@@ -19,27 +19,23 @@ export const SoftSkills = () => {
     },
     {
       id: 4,
-      description: "Toma de decisiones",
-    },
-    {
-      id: 5,
-      description: "Proactivo",
-    },
-    {
-      id: 6,
-      description: "Responsable",
-    },
-    {
-      id: 7,
-      description: "Resolución de problemas",
-    },
-    {
-      id: 8,
       description: "Comunicación efectiva",
     },
     {
-      id: 9,
+      id: 5,
       description: "Gestión del tiempo",
+    },
+    {
+      id: 6,
+      description: "Proactividad",
+    },
+    {
+      id: 7,
+      description: "Orientación a resultados",
+    },
+    {
+      id: 8,
+      description: "Adaptabilidad",
     },
   ];
   return (

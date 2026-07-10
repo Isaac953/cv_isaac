@@ -96,3 +96,7 @@ Proyecto creado en React.
 ## 17 Upgrades Feb 2026
 
 - UP_2026_02_08: **Actualización de experiencias laborales, sobre mi, aptitudes, backend y programas**.
+
+## 18 Upgrades July 2026
+
+- UP_2026_07_09: **Actualización de curriculum y experiencias laborales**.

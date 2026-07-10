@@ -6,19 +6,19 @@ export const Backend = () => {
     let backendData = [
       {
         id: 1,
-        description: "Python",
-      },
-      {
-        id: 2,
         description: "PHP",
       },
       {
+        id: 2,
+        description: "Laravel",
+      },
+      {
         id: 3,
-        description: "Node JS",
+        description: "Java",
       },
       {
         id: 4,
-        description: "Java",
+        description: "Spring Boot",
       },
       {
         id: 5,
@@ -26,23 +26,27 @@ export const Backend = () => {
       },
       {
         id: 6,
-        description: "DJango",
+        description: ".NET Core",
       },
       {
         id: 7,
-        description: "FastAPI",
+        description: "Python",
       },
       {
         id: 8,
-        description: "Laravel",
+        description: "Django",
       },
       {
         id: 9,
-        description: "Express JS",
+        description: "FastAPI",
       },
       {
         id: 10,
-        description: ".NET Core",
+        description: "Node.js",
+      },
+      {
+        id: 11,
+        description: "Express.js",
       },
     ];
   return (

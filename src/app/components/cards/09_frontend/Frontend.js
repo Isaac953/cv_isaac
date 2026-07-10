@@ -6,55 +6,55 @@ export const Frontend = () => {
   let frontendData = [
     {
       id: 1,
-      description: "HTML",
-    },
-    {
-      id: 2,
-      description: "CSS",
-    },
-    {
-      id: 3,
-      description: "JavaScript",
-    },
-    {
-      id: 4,
-      description: "Sass",
-    },
-    {
-      id: 5,
-      description: "Bootstrap",
-    },
-    {
-      id: 6,
-      description: "React JS",
-    },
-    {
-      id: 7,
       description: "Angular",
     },
     {
-      id: 8,
-      description: "Vue JS",
+      id: 2,
+      description: "JavaScript",
     },
     {
-      id: 9,
-      description: "Git/Git Hub",
-    },
-    {
-      id: 10,
+      id: 3,
       description: "API REST",
     },
     {
-      id: 11,
-      description: "Jinja2",
+      id: 4,
+      description: "Git/GitHub",
     },
     {
-      id: 12,
+      id: 5,
+      description: "ODK/XLSForm",
+    },
+    {
+      id: 6,
       description: "Flutter",
     },
     {
+      id: 7,
+      description: "HTML5",
+    },
+    {
+      id: 8,
+      description: "CSS3",
+    },
+    {
+      id: 9,
+      description: "Sass",
+    },
+    {
+      id: 10,
+      description: "Bootstrap",
+    },
+    {
+      id: 11,
+      description: "React",
+    },
+    {
+      id: 12,
+      description: "Vue.js",
+    },
+    {
       id: 13,
-      description: "ODK",
+      description: "Jinja2",
     },
   ];
   return (
