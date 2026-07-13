@@ -90,7 +90,7 @@ export const Main = () => {
         </section>
       </section>
 
-      <section className="main__page marginb2">
+      <section className="main__page marginb">
         <section className="main__page--contact">
           <hr className="hr-wh margint"></hr>
           <Frontend />
@@ -107,6 +107,10 @@ export const Main = () => {
           <hr className="hr-bg"></hr>
           <Programs />
         </section>
+      </section>
+
+      <section className="main__page marginb2">
+        
       </section>
     </main>
   );

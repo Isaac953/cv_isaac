@@ -2,14 +2,14 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  output: "export",
-  // distDir: 'dist',
-  // basePath: '/cv_isaac',
-  trailingSlash: true,
+  output: 'export',
+  basePath: '/cv_isaac',
   images: {
     unoptimized: true,
   },
-}
+};
+
+module.exports = nextConfig;
  
 module.exports = {
   output: 'export',

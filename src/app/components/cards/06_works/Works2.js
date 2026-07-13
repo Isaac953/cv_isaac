@@ -12,7 +12,7 @@ export const Works2 = () => {
       company: "IMOVES S.A. de C.V.",
       date: "Febrero 2018 - Abril 2018",
       project: "Revisión de aplicaciones existentes.",
-      technologies: "JavaScript, HTML5, CSS3, Highcharts, Git",
+      technologies: "JavaScript, HTML5, CSS3, Highcharts, Git.",
       responsibilities: "Responsabilidades:",
       activities: [
         {
@@ -48,7 +48,7 @@ export const Works2 = () => {
       company: "Plan Internacional El Salvador",
       date: "Julio 2016 - Febrero 2017",
       project: "Aplicación Web para gestión de Consultorias.",
-      technologies: "PHP, HTML5, CSS3, SQL Server",
+      technologies: "PHP, HTML5, CSS3, SQL Server.",
       // styleClass: "margin-botton",
       responsibilities: "Responsabilidades:",
       activities: [

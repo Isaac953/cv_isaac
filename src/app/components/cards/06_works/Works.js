@@ -13,7 +13,7 @@ export const Works = () => {
       date: "Abril 2024 - Presente",
       project:
         "Programa de Modernización del Sistema Estadístico de El Salvador",
-      technologies: "Angular, PostgreSQL, Git, Postman, ODK Collect, ODK/XLSForm, Jira, Android Studio",
+      technologies: "Angular, Visual Studio code, PostgreSQL, Git, Postman, IntelliJ IDEA, ODK/XLSForm, XLSForm Online, ODK Collect, Android Studio, Jira.",
       responsibilities: "Actividades:",
       activities: [
         {
@@ -38,7 +38,7 @@ export const Works = () => {
         {
           idt: 5,
           tasks:
-            "Preparar y configurar DMC para la ejecución de operativos en campo",
+            "Preparar y configurar DMC para la ejecución de operativos en campo.",
         },
         {
           idt: 6,
@@ -62,7 +62,7 @@ export const Works = () => {
       company: "Elementos Industriales S.A de C.V",
       date: "Febrero 2017 - Abril 2019",
       project: "Sistema de Inventario y Facturación.",
-      technologies: "C#, .NET, MySQL, Windows Forms, Visual Studio",
+      technologies: "C#, .NET, MySQL, Windows Forms, Visual Studio.",
       responsibilities: "Responsabilidades:",
       activities: [
         {
@@ -107,7 +107,7 @@ export const Works = () => {
       company: "Plan Internacional El Salvador",
       date: "Mayo 2018 - Octubre 2018",
       project: "Aplicación Web SIPAB 2.0 Actualizaciones.",
-      technologies: "PHP, JavaScript, HTML5, CSS3, PostgreSQL, FusionCharts",
+      technologies: "PHP, JavaScript, HTML5, CSS3, PostgreSQL, FusionCharts.",
       responsibilities: "Responsabilidades:",
       activities: [
         {
