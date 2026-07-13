@@ -13,7 +13,7 @@ export const Works = () => {
       date: "Abril 2024 - Presente",
       project:
         "Programa de Modernización del Sistema Estadístico de El Salvador",
-      technologies: "Angular, Visual Studio code, PostgreSQL, Git, Postman, IntelliJ IDEA, ODK/XLSForm, XLSForm Online, ODK Collect, Android Studio, Jira.",
+      technologies: "Angular, Visual Studio code, PostgreSQL, Git, Postman, IntelliJ IDEA, ODK/XLSForm, XLSForm Online, ODK Collect, Android Studio.",
       responsibilities: "Actividades:",
       activities: [
         {
@@ -28,7 +28,7 @@ export const Works = () => {
         {
           idt: 3,
           tasks:
-            "Diseño de formularios ODK/XLSForm con validaciones, lógica condicional y pruebas funcionales en ODK Collect.",
+            "Diseño de formularios ODK/XLSForm con validaciones, lógica condicional y pruebas funcionales en ODK Collect para censos y encuestas especiales.",
         },
         {
           idt: 4,

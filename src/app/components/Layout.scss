@@ -77,6 +77,15 @@
       margin: 0px;
     }
   }
+  &__page2 {
+    margin: 0px;
+    width: 100%;
+    height: 1300px;
+      color: $textColor2;
+      justify-content: flex-start;
+      padding: 0px;
+      background-color: white;
+  }
 }
 
 /*End Main Styles*/
@@ -106,6 +115,16 @@
   border: 1px solid black;
   border-radius: 5px;
   width: 95%;
+}
+
+.hr-bg2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 95%;
+  margin: 15px 20px 0px 20px;
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
 }
 
 .margint {

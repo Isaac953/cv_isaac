@@ -1,0 +1,15 @@
+@import "/src/app/styles/Flex.scss";
+@import "/src/app/styles/Colors.scss";
+@import "/src/app/styles/MainCards.scss";
+
+.titulocard {
+  &__title {
+    font-size: 23px;
+    margin-bottom: 9px;
+  }
+  &__img {
+    margin: 5% 0%;
+    width: 58%;
+    height: inherit;
+  }
+}

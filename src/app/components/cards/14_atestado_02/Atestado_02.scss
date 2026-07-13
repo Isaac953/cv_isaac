@@ -1,0 +1,11 @@
+@import "/src/app/styles/Flex.scss";
+@import "/src/app/styles/Colors.scss";
+@import "/src/app/styles/MainCards.scss";
+
+.titulocard2 {
+  &__img {
+    margin: 25% 0%;
+    width: 70%;
+    height: inherit;
+  }
+}

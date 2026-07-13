@@ -101,3 +101,4 @@ Proyecto creado en React.
 
 - UP_2026_07_09: **Actualización de curriculum y experiencias laborales**.
 - UP_2026_07_12: **Actualización de curriculum y experiencias laborales parte I**.
+- UP_2026_07_13: **Actualización de curriculum y experiencias laborales parte II**.
